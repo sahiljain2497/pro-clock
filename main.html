@@ -1,0 +1,45 @@
+<html>
+<head>
+    <script src="jquery.js" type="text/javascript"></script>
+    <script src="myscript.js" type="text/javascript"></script>
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Orbitron" rel="stylesheet">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+</head>
+<body>
+    <h1>Pomodoro Clock</h1>
+    <div class="timers">
+        <div class="stimer">
+            <h4>Session Timer</h4>
+            <i class="material-icons minus">remove</i>
+            <span id="stimer">20</span>
+            <i class="material-icons plus">add</i><br/>
+            <div class="extra_func">
+            <i class="material-icons md-36 p5">forward_5</i>
+            <i class="material-icons md-36 p10">forward_10</i>
+            <i class="material-icons md-36 p30">forward_30</i>
+                </div>
+        </div>
+        <div class="btimer">
+            <h4>Break Timer</h4>
+            <i class="material-icons minus1">remove</i>
+            <span id="btimer">20</span>
+            <i class="material-icons plus1">add</i><br/>
+            <div class="extra_func">
+            <i class="material-icons md-36 p51">forward_5</i>
+            <i class="material-icons md-36 p101">forward_10</i>
+            <i class="material-icons md-36 p301">forward_30</i>
+                </div>
+        </div>
+    </div>
+    <div class="clock">
+    <div class="text-center"><i class="material-icons md-48 start">play_circle_outline</i>&nbsp;&nbsp;<i class="material-icons md-48 stop">highlight_off</i></div>
+    <div class="clk text-center" id="clk">
+    </div>
+    </div>    
+</body>
+</html>
